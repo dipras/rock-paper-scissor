@@ -8,13 +8,13 @@ int generateOpponent() {
 }
 
 int main() {
-    char options[][10] = {"Rock", "Paper", "Scicors"};
+    char options[][10] = {"Rock", "Paper", "Scissor"};
 start:
     int choice;
     printf("Options\n");
     printf("1. Rock\n");
     printf("2. Paper\n");
-    printf("3. Scicors\n");
+    printf("3. Scissor\n");
     printf("Input your choice: ");
 
     scanf("%i", &choice);
